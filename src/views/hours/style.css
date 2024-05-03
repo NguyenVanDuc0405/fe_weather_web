@@ -1,0 +1,269 @@
+.text-white {
+    color: #fff !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.hour {
+    width: 100%;
+    height: 1vh;
+}
+
+
+.hour #header {
+    height: 46px;
+    background-color: #192438 !important;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.hour #header {
+    height: 46px;
+    background-color: #192438 !important;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.hour #header .hours {
+    font-weight: 600;
+    color: #000;
+    background-color: #ccc;
+    border-bottom: 2px solid orange;
+}
+
+.hour #nav {
+    display: inline-block;
+}
+
+.hour #nav .subnav {
+    list-style: none;
+
+}
+
+.hour #nav li {
+    display: inline-block;
+    position: relative;
+}
+
+.hour #nav li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 46.4px;
+    padding: 0 24px;
+    display: block;
+    margin-left: 20px;
+    font-size: 16px;
+
+}
+
+.hour li a img {
+    width: 40px;
+    position: fixed;
+    top: 4px;
+}
+
+.hour #nav>li:hover>a,
+#nav li:hover a {
+    color: #000;
+    background-color: #ccc;
+}
+
+.hour #nav li:hover .subnav {
+    display: block;
+}
+
+.hour #nav .subnav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.hour #nav .subnav a {
+    color: #000;
+    padding: 0 12px;
+    line-height: 38px;
+}
+
+.hour #content {
+    background-image: url('/public/images/repeat.jpg');
+    background-repeat: repeat-both;
+    height: 2500px;
+    position: relative;
+}
+
+.hour #content .box {
+    position: relative;
+    top: 100px;
+    width: 80%;
+    margin: auto;
+    color: #fff;
+
+}
+
+.hour .box .address {
+    position: relative;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 12px 0 24px 0;
+    font-size: 32px;
+    margin-bottom: 52px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-shadow: 4px 4px 8px #000;
+    border: 1px solid #fff;
+
+}
+
+.hour .box .day_time {
+    color: #000;
+    position: absolute;
+    font-size: 22px;
+    top: 66px;
+    left: 460px;
+    background-color: #fff;
+    text-shadow: none;
+    width: 300px;
+}
+
+.hour .box table {
+    width: 100%;
+    height: 200px;
+}
+
+.hour td {
+    /* border: 1px solid #000; */
+    padding: 10px;
+    text-align: center;
+}
+
+.hour .box .weather {
+    position: relative;
+}
+
+.hour .box .weather img {
+    vertical-align: middle;
+    border-style: none;
+    width: 110px;
+    aspect-ratio: auto 110 / 110;
+    height: 110px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+
+}
+
+.hour .box .weather .hour_time {
+    position: absolute;
+    top: 42px;
+    right: 0px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.hour .box td sup {
+    top: -0.5em;
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline;
+}
+
+.hour .box .temperature {
+    font-size: 60px;
+    line-height: 92px;
+    padding-top: 8px;
+
+}
+
+.hour .box .weather p {
+    margin: 16px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.hour table .rain {
+    position: relative;
+    margin: auto;
+    margin-left: 80px;
+    margin-right: -40px;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
+
+.hour .table2 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 40px;
+    height: 0;
+}
+
+.hour .box .rain img {
+    height: 28px;
+    width: 24px;
+
+}
+
+.hour .box .rain p {
+    position: absolute;
+    top: 0px;
+    right: 80px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.hour .box .weather p {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.hour .table2 td {
+    padding-top: 40px;
+    padding-left: 200px;
+}
+
+.hour table .icon {
+    width: 10%;
+    float: left;
+    height: 48px;
+    width: 72px;
+    margin: 0 20px 0 0;
+
+}
+
+.hour table .icon img {
+    height: 40px;
+    width: 40px;
+}
+
+.hour table .attribute {
+    width: 50%;
+    float: left;
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+.hour table .attribute p {
+    margin-top: 10px;
+}
+
+.hour #next_hour {
+    left: 36px;
+}
